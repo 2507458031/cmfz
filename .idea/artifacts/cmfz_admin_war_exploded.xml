@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cmfz-admin:war exploded">
+    <output-path>$PROJECT_DIR$/../cmfz/cmfz-admin/target/cmfz-admin</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cmfz-admin" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../cmfz/cmfz-admin/target/cmfz-admin/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cmfz-admin/web/Web" />
+    </root>
+  </artifact>
+</component>
